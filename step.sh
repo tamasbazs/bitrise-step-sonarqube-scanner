@@ -48,5 +48,5 @@ else
   debug_flag=""
 fi
 
-"${TEMP_DIR}/sonar-scanner-${scanner_version}/bin/sonar-scanner" ${debug_flag}
+sudo "${TEMP_DIR}/sonar-scanner-${scanner_version}/bin/sonar-scanner" ${debug_flag}
 
